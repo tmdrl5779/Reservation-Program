@@ -1,17 +1,13 @@
 package com.example.reservation.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-
+import lombok.*;
 import javax.persistence.*;
 import java.util.Set;
 
 @Entity
 @Getter
 @Table(name = "user")
-@Builder
 @NoArgsConstructor
 public class User {
 

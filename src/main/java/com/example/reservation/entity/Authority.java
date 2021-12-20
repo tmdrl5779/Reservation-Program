@@ -1,16 +1,12 @@
 package com.example.reservation.entity;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-
+import lombok.*;
 import javax.persistence.*;
 import java.util.Set;
 
 @Entity
 @Getter
 @Table(name = "authority")
-@Builder
 @NoArgsConstructor
 public class Authority {
 
