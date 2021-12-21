@@ -16,6 +16,10 @@ import java.io.IOException;
 
 public class JwtFilter extends GenericFilterBean {
 
+    /**
+     * httpRequest 헤더에서 토큰을 가져와서 securityContextHolder에 저장하는 필터
+     */
+
     private static final Logger logger = LoggerFactory.getLogger(JwtFilter.class);
 
     public static final String AUTHORIZATION_HEADER = "Authorization";
