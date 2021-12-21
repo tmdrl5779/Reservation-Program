@@ -24,3 +24,10 @@ spring:
 logging:
   level:
     com.example: DEBUG
+
+
+jwt:
+  header: Authorization
+  #echo 'tmdrl5779-reservateion-program-api'|base64
+  secret: dG1kcmw1Nzc5LXJlc2VydmF0ZWlvbi1wcm9ncmFtLWFwaQ==
+  token-validity-in-seconds: 86400 #만료시간
